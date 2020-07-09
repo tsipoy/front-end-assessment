@@ -1,0 +1,12 @@
+@media(max-width: 360px) {
+  .sport_app_header {
+    background-image: url('../img/logo_sports_colour.svg');
+    background-repeat: no-repeat;
+    background-position: 50%;
+    background-size: contain;
+  }
+}
+
+.sport_app_header--title {
+  color: transparent;
+}

@@ -1,13 +1,7 @@
-@media(max-width: 700px) {
+@media(max-width: 500px) {
   .sport_app_article--downloading {
   display: flex;
   margin-left: 0;
   justify-content: space-between;
-  }
-}
-
-@media(max-width: 160px) {
-  .sport_app_article--downloading{
-    display: block;
   }
 }

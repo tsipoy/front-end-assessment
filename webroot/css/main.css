@@ -1,0 +1,10 @@
+@media(max-width: 500px) {
+  .sport_app_article--title {
+    text-align: start;
+    padding-left: 2rem;
+  }
+
+  .sport_app_article--goal {
+    text-align: center;
+  }
+}

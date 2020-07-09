@@ -1,4 +1,6 @@
-@media(max-width: 500px) {
+/* Mobile style */
+
+@media(max-width: 400px) {
   .sport_app_article--title {
     text-align: start;
     padding-left: 2rem;

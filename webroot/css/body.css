@@ -1,5 +1,28 @@
 body {
-  line-height: 1.25;
+  line-height: 1.75;
+  background-image: url('../img/bg_header.png');
+  background-repeat: no-repeat;
+  background-position: right 50%;
+  background-size: 700px;
+  background-color: lightcyan;
+}
+
+@font-face {
+  font-family: "Lato";
+  src: url("fonts/Lato-Bold.woff");
+}
+
+html {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 
+
+/* Mobile style */
+
+@media(max-width: 400px) {
+  body {
+    background-image: none;
+    margin-left: auto;
+  }
+}

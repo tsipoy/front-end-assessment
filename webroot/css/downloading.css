@@ -1,9 +1,14 @@
 /* Mobile style */
 
-@media(max-width: 400px) {
+@media(min-width: 200px) {
   .sport_app_article--downloading {
   display: flex;
   margin-left: 0;
-  justify-content: space-between;
   }
+}
+
+.apple_store,
+.google_play {
+  border: none;
+  background-color: transparent;
 }

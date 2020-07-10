@@ -9,4 +9,11 @@
   .sport_app_article--goal {
     text-align: center;
   }
+
+}
+
+/* Desktop */
+
+.sport_app_article {
+  margin-top: 10rem;
 }

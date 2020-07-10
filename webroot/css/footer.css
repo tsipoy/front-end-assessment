@@ -12,3 +12,7 @@
   border: none;
   background-color: transparent;
 }
+
+.sport_app_article--downloading {
+  margin-top: 1rem;
+}

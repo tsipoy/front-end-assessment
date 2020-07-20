@@ -1,19 +1,31 @@
+.sport_app_article {
+  padding-top: 100px;
+}
+
+.sport_app_article--title {
+  font-size: 36px;
+  max-width: 50%;
+}
+
+.sport_app_article--goal {
+  max-width: 50%;
+  font-size: 18px;
+}
 /* Mobile style */
 
 @media(max-width: 400px) {
+  .sport_app_article {
+    padding-top: 50px;
+  }
+
   .sport_app_article--title {
     text-align: start;
     padding-left: 2rem;
+    max-width: none;
   }
 
   .sport_app_article--goal {
     text-align: center;
+    max-width: none;
   }
-
-}
-
-/* Desktop */
-
-.sport_app_article {
-  margin-top: 10rem;
 }

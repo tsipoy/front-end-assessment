@@ -2,9 +2,11 @@ body {
   line-height: 1.75;
   background-image: url('../img/bg_header.png');
   background-repeat: no-repeat;
-  background-position: right 50%;
-  background-size: 900px;
+  background-position:  130% 50%;
+  background-size: 65%;
   background-color: lightcyan;
+  margin: auto;
+  max-width: 80%
 }
 
 

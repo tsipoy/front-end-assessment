@@ -5,11 +5,14 @@
 .sport_app_article--title {
   font-size: 36px;
   max-width: 50%;
+  color: #333333;
+  letter-spacing: 0.03em;
 }
 
 .sport_app_article--goal {
   max-width: 50%;
   font-size: 18px;
+  color: #4F4F4F;
 }
 /* Mobile style */
 

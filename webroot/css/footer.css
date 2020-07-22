@@ -1,18 +1,14 @@
-/* Mobile style */
-
-@media(min-width: 200px) {
-  .sport_app_article--downloading {
+.sport_app_article__footer--list {
+  list-style: none;
   display: flex;
-  margin-left: 0;
-  }
+  padding-left: 0;
 }
 
-.apple_store,
-.google_play {
-  border: none;
-  background-color: transparent;
+.sport_app_article__footer__list--apple__store {
+  padding-right: 3rem;
+  padding-bottom: 10rem;
 }
 
-.sport_app_article--downloading {
-  margin-top: 1rem;
+.image {
+  max-width: 100%;
 }

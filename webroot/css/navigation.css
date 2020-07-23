@@ -1,10 +1,10 @@
-.sport_app_article__footer--list {
+.sport_app_article__navigation--list {
   list-style: none;
   display: flex;
   padding-left: 0;
 }
 
-.sport_app_article__footer__list--apple__store {
+.sport_app_article__navigation__list--apple__store {
   padding-right: 3rem;
   padding-bottom: 10rem;
 }

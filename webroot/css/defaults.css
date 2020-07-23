@@ -1,0 +1,18 @@
+html {
+  font-family: 'Lato', sans-serif;
+  background-color: #F4F6F9;
+}
+
+@media(min-width: 1200px) {
+  body {
+    background-image: url('../img/bg_header.png');
+    background-repeat: no-repeat;
+    background-position: 523px -130px;
+    background-size: 700px;
+    margin-left: auto;
+    margin-bottom: auto;
+    max-width: 1114px;
+  }
+}
+
+

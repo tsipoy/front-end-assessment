@@ -1,3 +1,13 @@
+@import "variable";
+.sport_app_article__title {
+  color: $header-color;
+}
+
+.sport_app_article__description {
+  color: $description-color;
+}
+
+
 @media(min-width: 1200px) {
   .sport_app_article {
     padding-top: 50px;

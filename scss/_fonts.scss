@@ -1,5 +1,6 @@
+@import "variable";
 @font-face {
-    font-family: 'Lato';
+    font-family: $font-theme;
     src: local('Lato Regular'), local('lato-regular'), local('Lato-Regular'),
         url('lato-regular.woff2') format('woff2'),
         url('lato-regular.woff') format('woff');
@@ -7,7 +8,7 @@
 }
 
 @font-face {
-    font-family: 'Lato';
+    font-family: $font-theme;
     src:  local('Lato Bold'), local('lato-bold'), local('Lato-Bold'),
         url('lato-bold.woff2') format('woff2'),
         url('lato-bold.woff') format('woff');

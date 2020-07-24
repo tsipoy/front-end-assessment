@@ -1,10 +1,10 @@
 @font-face {
-  font-family: 'Lato';
+  font-family: "Lato";
   src: local("Lato Regular"), local("lato-regular"), local("Lato-Regular"), url("lato-regular.woff2") format("woff2"), url("lato-regular.woff") format("woff");
   font-weight: 400; }
 
 @font-face {
-  font-family: 'Lato';
+  font-family: "Lato";
   src: local("Lato Bold"), local("lato-bold"), local("Lato-Bold"), url("lato-bold.woff2") format("woff2"), url("lato-bold.woff") format("woff");
   font-weight: 700; }
 
@@ -13,7 +13,7 @@ html {
   background-color: #F4F6F9; }
 
 @media (min-width: 1200px) {
-  body {
+  .sport_app_header {
     background-image: url("../img/bg_header.png");
     background-repeat: no-repeat;
     background-position: 523px -130px;
@@ -23,7 +23,7 @@ html {
     max-width: 1114px; } }
 
 /* Mobile style */
-.sport_app_header {
+.sport_app_header__title {
   background-image: url("../img/logo_sports_colour.svg");
   background-repeat: no-repeat;
   background-position: 50%;
@@ -34,7 +34,7 @@ html {
 
 /* Desktop style */
 @media (min-width: 1200px) {
-  .sport_app_header {
+  .sport_app_header__title {
     background-image: url("../img/logo_sports_colour.svg");
     background-repeat: no-repeat;
     background-position: left;
@@ -51,6 +51,12 @@ html {
 
 .image {
   max-width: 100%; }
+
+.sport_app_article__title {
+  color: #333333; }
+
+.sport_app_article__description {
+  color: #4F4F4F; }
 
 @media (min-width: 1200px) {
   .sport_app_article {

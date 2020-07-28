@@ -1,7 +1,6 @@
 @import "variable";
 html {
   font-family: 'Lato', sans-serif;
-  background-color: $base-color;
 }
 
 @media(min-width: 1200px) {
@@ -15,5 +14,3 @@ html {
     max-width: 1114px;
   }
 }
-
-

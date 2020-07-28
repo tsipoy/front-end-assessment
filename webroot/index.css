@@ -1,12 +1,16 @@
 @font-face {
   font-family: "Lato";
-  src: local("Lato Regular"), local("${filename-regular"), local("Lato-Regular"), url("${filename-regular}.${extension}") format("${extension}"), url("${filename-regular}.${extension}") format("${extension}");
+  src: local("Lato Regular"), local("lato-regular"), local("Lato-Regular"),
+      url("Lato-Regular.woff2") format("woff2"),
+      url("lato-regular.woff") format("woff");
   font-weight: 400;
 }
 
 @font-face {
   font-family: "Lato";
-  src: local("Lato Bold"), local("${filename-bold}"), local("${filename-bold}"), url("${filename-bold}.${extension}") format("${extension}"), url("${filename-bold.${extension}") format("${extension");
+  src: local("Lato Bold"), local("lato-bold"), local("lato-bold"),
+      url("lato-bold.woff2") format("woff2"),
+      url("lato-bold.woff") format("woff");
   font-weight: 700;
 }
 

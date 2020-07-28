@@ -49,17 +49,9 @@ html {
   }
 }
 
-.sport_app_article__navigation--list {
-  list-style: none;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  padding-left: 0;
-}
-
 .sport_app_article__navigation__list--apple__store {
   padding-right: 3rem;
-  padding-bottom: 10rem;
+  padding-bottom: 3rem;
 }
 
 .image {

@@ -1,14 +1,13 @@
+@import "variable";
+
 .sport_app_article__navigation--list {
-  list-style: none;
-  display: flex;
-  padding-left: 0;
+  @include reset-list;
 }
 
 .sport_app_article__navigation__list--apple__store {
-  padding-right: 3rem;
-  padding-bottom: 10rem;
+  @include padding-navigation;
 }
 
 .image {
-  max-width: 100%;
+  @include default-max-width;
 }

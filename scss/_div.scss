@@ -1,10 +1,12 @@
 @import "variable";
 .sport_app_article__title {
   color: $header-color;
+  font-size: 30px;
 }
 
 .sport_app_article__description {
   color: $description-color;
+  font-size: 16px;
 }
 
 
@@ -16,12 +18,10 @@
   }
 
   .sport_app_article__title {
-    font-size: 36px;
     text-align: start;
   }
 
   .sport_app_article__description {
-    font-size: 18px;
     text-align: start;
   }
 }
@@ -35,12 +35,10 @@
 
 .sport_app_article__title {
   line-height: 1.75;
-  font-size: 36px;
 }
 
 .sport_app_article__description {
   line-height: 26px;
   margin-top: 30px;
   margin-bottom: 50px;
-  font-size: 18px;
 }

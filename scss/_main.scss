@@ -1,6 +1,20 @@
+@import "variable";
 .sport_app_main_container {
-  background-color: white;
+  background-color: #FFFFFF;
   text-align: center;
+  margin-block-start: -20px;
+}
+
+.sport_app_main_container__article--header {
+  font-size: 28px;
+  line-height: 37px;
+  color: $header-color;
+}
+
+.sport_app_main_container__article--description {
+  font-size: 16px;
+  line-height: 23px;
+  color: $description-color;
 }
 
 .sport_app_main_container__header {
@@ -13,3 +27,30 @@
   line-height: 21px;
   font-size: 16px;
 }
+
+.sport_app_container__get_started--list_wrapper {
+  list-style: none;
+}
+
+.learn_more {
+  font-size: 16px;
+  line-height: 21px;
+  color: #00ADEE;
+  text-decoration: none;
+}
+
+.sport_app_main_container__get_started--header {
+  color: $header-color;
+  font-size: 28px;
+  line-height: 37px;
+}
+
+.sport_app_container__get_started--list {
+  padding-block-start: 57px;
+  padding-block-end: 16px;
+  font-size: 16px;
+  line-height: 23px;
+  color: $description-color;
+}
+
+

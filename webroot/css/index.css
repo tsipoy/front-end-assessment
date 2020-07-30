@@ -12,12 +12,12 @@ html {
   font-family: "Lato", sans-serif;
   background-color: #F4F6F9; }
 
-@media (min-width: 1200px) {
+@media (min-width: 1114px) {
   .sport_app_header {
     background-image: url("../img/bg_header.png");
     background-repeat: no-repeat;
-    background-position: 523px -130px;
-    background-size: 700px;
+    background-position: calc(451px - 11px) -149px;
+    background-size: 800px;
     margin-left: auto;
     margin-bottom: auto;
     max-width: 1114px; } }
@@ -33,7 +33,7 @@ html {
   color: transparent; }
 
 /* Desktop style */
-@media (min-width: 1200px) {
+@media (min-width: 1114px) {
   .sport_app_header__title {
     background-image: url("../img/logo_sports_colour.svg");
     background-repeat: no-repeat;
@@ -43,14 +43,15 @@ html {
 .sport_app_article__navigation--list {
   list-style: none;
   display: flex;
-  padding-left: 0; }
-
-.sport_app_article__navigation__list--apple__store {
-  padding-right: 3rem;
-  padding-bottom: 3rem; }
+  padding-left: 0;
+  padding-right: 28px;
+  padding-bottom: 59px; }
 
 .image {
   max-width: 100%; }
+
+.sport_app_article__navigation__list--apple__store {
+  padding-inline-end: 28px; }
 
 .sport_app_article__title {
   color: #333333;
@@ -60,15 +61,16 @@ html {
   color: #4F4F4F;
   font-size: 16px; }
 
-@media (min-width: 1200px) {
+@media (min-width: 1114px) {
   .sport_app_article {
     padding-top: 50px;
-    text-align: start;
-    max-width: 557px; }
-  .sport_app_article__title {
     text-align: start; }
+  .sport_app_article__title {
+    text-align: start;
+    max-width: 546px; }
   .sport_app_article__description {
-    text-align: start; } }
+    text-align: start;
+    max-width: 453px; } }
 
 /* Mobile style */
 .sport_app_article {

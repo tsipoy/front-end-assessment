@@ -53,6 +53,10 @@ html {
 .sport_app_article__navigation__list--apple__store {
   padding-inline-end: 28px; }
 
+@media (min-width: 1114px) {
+  .sport_app_article__navigation--list {
+    padding-bottom: 169px; } }
+
 .sport_app_article__title {
   color: #333333;
   font-size: 30px; }

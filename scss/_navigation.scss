@@ -16,7 +16,7 @@
 
 @media(min-width: 1114px) {
   .sport_app_article__navigation--list {
-    $desktop-padding-bottom: 169px;
+    padding-bottom: $desktop-padding-bottom;
   }
 }
 

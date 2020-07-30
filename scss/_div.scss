@@ -10,19 +10,20 @@
 }
 
 
-@media(min-width: 1200px) {
+@media(min-width: 1114px) {
   .sport_app_article {
     padding-top: 50px;
     text-align: start;
-    max-width: 557px;
   }
 
   .sport_app_article__title {
     text-align: start;
+    max-width: 546px;
   }
 
   .sport_app_article__description {
     text-align: start;
+    max-width: 453px;
   }
 }
 

@@ -12,6 +12,12 @@ html {
   font-family: "Lato", sans-serif;
   background-color: #F4F6F9; }
 
+ul {
+  list-style: none; }
+
+a {
+  text-decoration: none; }
+
 @media (min-width: 1114px) {
   .sport_app_header {
     background-image: url("../img/bg_header.png");
@@ -41,21 +47,29 @@ html {
     background-size: auto; } }
 
 .sport_app_article__navigation--list {
-  list-style: none;
   display: flex;
-  padding-left: 0;
-  padding-right: 28px;
+  align-items: start;
+  justify-content: end;
+  flex-direction: row;
+  padding-inline-start: 0;
+  padding-right: 20px;
   padding-bottom: 59px; }
 
 .image {
   max-width: 100%; }
 
 .sport_app_article__navigation__list--apple__store {
-  padding-inline-end: 28px; }
+  padding-inline-end: 20px; }
 
 @media (min-width: 1114px) {
   .sport_app_article__navigation--list {
-    padding-bottom: 169px; } }
+    padding-bottom: 169px; }
+  .sport_app_article__navigation--list {
+    display: flex;
+    align-items: start;
+    justify-content: end;
+    flex-direction: row;
+    padding-inline-start: 0; } }
 
 .sport_app_article__title {
   color: #333333;
@@ -108,20 +122,15 @@ html {
   text-align: center; }
 
 .header_link {
-  text-decoration: none;
   color: #00ADEE;
   text-transform: uppercase;
   line-height: 21px;
   font-size: 16px; }
 
-.sport_app_container__get_started--list_wrapper {
-  list-style: none; }
-
 .learn_more {
   font-size: 16px;
   line-height: 21px;
-  color: #00ADEE;
-  text-decoration: none; }
+  color: #00ADEE; }
 
 .sport_app_main_container__get_started--header {
   color: #333333;
@@ -134,3 +143,36 @@ html {
   font-size: 16px;
   line-height: 23px;
   color: #4F4F4F; }
+
+.sport_app_footer {
+  background-color: #00ADEE;
+  padding-inline-start: 21px;
+  padding-inline-end: 20px;
+  padding-block-start: 43px;
+  padding-block-end: 46px; }
+
+.sport_app_footer__social_media__list_wrapper {
+  display: flex;
+  align-items: start;
+  justify-content: end;
+  flex-direction: row;
+  padding-inline-start: 0; }
+
+.sport_app_footer__social_media__list {
+  padding-block-end: 34px;
+  padding-inline-end: 17px; }
+
+.sport_app_footer__communication__list_wrapper {
+  display: flex;
+  align-items: start;
+  justify-content: end;
+  flex-direction: row;
+  padding-inline-start: 0; }
+
+.sport_app_footer__communication__list {
+  padding-inline-end: 19px; }
+
+.communication_link {
+  font-size: 16px;
+  line-height: 21px;
+  color: #FFFFFF; }

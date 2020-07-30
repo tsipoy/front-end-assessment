@@ -18,5 +18,8 @@
   .sport_app_article__navigation--list {
     padding-bottom: $desktop-padding-bottom;
   }
+  .sport_app_article__navigation--list {
+    @include reset-list;
+  }
 }
 

@@ -9,16 +9,14 @@ $path: '../webroot/fonts';
 $extension: 'woff', 'woff2';
 $bold-weight: 700;
 $regular-weight: 400;
+$nav-padding-right: 28px;
+$mobile-padding-bottom: 59px;
+$desktop-padding-bottom: 169px;
 
 @mixin reset-list {
   list-style: none;
   display: flex;
   padding-left: 0;
-}
-
-@mixin padding-navigation {
-  padding-right: 3rem;
-  padding-bottom: 3rem;
 }
 
 @mixin default-max-width {

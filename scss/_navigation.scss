@@ -2,12 +2,21 @@
 
 .sport_app_article__navigation--list {
   @include reset-list;
-}
-
-.sport_app_article__navigation__list--apple__store {
-  @include padding-navigation;
+  padding-right: $nav-padding-right;
+  padding-bottom: $mobile-padding-bottom;
 }
 
 .image {
   @include default-max-width;
 }
+
+.sport_app_article__navigation__list--apple__store {
+  padding-inline-end: $nav-padding-right;
+}
+
+@media(min-width: 1114px) {
+  .sport_app_article__navigation--list {
+    $desktop-padding-bottom: 169px;
+  }
+}
+

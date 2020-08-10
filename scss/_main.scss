@@ -48,3 +48,20 @@
 }
 
 
+.sport_app_main_container__article {
+  background-image: url('../webroot/img/');
+  background-repeat: no-repeat;
+  background-position-y: 37%;
+  background-position-x: 50%;
+  padding-block-end: 700px;
+}
+
+@media(min-width: 1114px) {
+  .sport_app_main_container__article {
+    background-image: url(../img/bg_friendly_user_interface.png);
+    background-repeat: no-repeat;
+    background-position: left;
+    background-size: auto;
+    padding-block-end: 565px;
+  }
+}

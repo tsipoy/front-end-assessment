@@ -74,14 +74,14 @@ font-size: 28px;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    padding-block-start: 48px;
-    padding-block-end: 47px;
   }
 
   .sport_app_container__get_started--list_wrapper {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    grid-gap: 90px;
+    margin-left: auto;
+    margin-bottom: auto;
+    max-width: 1114px;
   }
 
   .logo_sport_white {
@@ -91,8 +91,19 @@ font-size: 28px;
   .sport_app_footer__social_media > .sport_app_footer__social_media__list_wrapper {
     order: 1;
   }
+
   .sport_app_container__get_started--list_wrapper svg{
     fill: #FFFFFF;
+  }
+
+  .list_paragraph {
+    color: #FFFFFF;
+    max-width: 194px;
+    text-align: left;
+  }
+
+  .icon_link {
+    display: flex;
   }
 
 }

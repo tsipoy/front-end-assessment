@@ -49,7 +49,7 @@
 
 
 .sport_app_main_container__article {
-  background-image: url('../webroot/img/');
+  background-image: url(../img/bg_friendly_user_interface.png);
   background-repeat: no-repeat;
   background-position-y: 37%;
   background-position-x: 50%;
@@ -60,8 +60,36 @@
   .sport_app_main_container__article {
     background-image: url(../img/bg_friendly_user_interface.png);
     background-repeat: no-repeat;
-    background-position: left;
-    background-size: auto;
-    padding-block-end: 565px;
+    background-position: calc(-219px - 11px);
+    padding-block-end: 0;
+    text-align: start;
+    margin-left: auto;
+    margin-bottom: auto;
+    max-width: 1114px;
+  }
+
+  .sport_app_main_container__get_started--header {
+    color: #ffffff;
+  }
+
+  .sport_app_main_container__header--title {
+    padding-block-start: 167px;
+  }
+
+  .sport_app_main_container__article--header {
+    padding-block-end: 27px;
+    padding-block-start: 27px;
+  }
+
+  .sport_app_main_container__article--description {
+    font-size: 16px;
+    line-height: 23px;
+    color: #4F4F4F;
+    max-width: 390px;
+  }
+
+  .sport_app_main_container__learn_more {
+    padding-block-start: 54px;
+    padding-block-end: 171px;
   }
 }
